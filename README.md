@@ -1,0 +1,1 @@
+aku punya ini
