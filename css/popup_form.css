@@ -1,0 +1,62 @@
+.overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay textarea {
+    width: 100%;
+}
+
+.wraper {
+    margin: 80px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    width: 40%;
+    position: relative;
+    transition: all ease-in-out;
+}
+
+.wraper label {
+    font-family: "Tilt Prism", cursive;
+    font-family: "Vollkorn SC", serif;
+    font-size: 15px;
+}
+
+.wraper input {
+    margin: 8px 0;
+    width: 100%;
+    padding: 12px 0px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.wraper select {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.wraper .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.wraper .tomobol:hover {
+    background-color: aliceblue;
+}

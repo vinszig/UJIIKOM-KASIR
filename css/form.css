@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #9e1d7e 23%, #75129c 95%);
+}
+
+.container {
+    border-radius: 12px;
+    height: auto;
+    max-width: 600px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 80px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0, 0.125);
+    opacity: 0.9;
+}
+
+.container .judul {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Trade Winds', cursive;
+}
+
+.container .eror p {
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container .form {
+    width: 100%;
+    display: inline-block;
+}
+
+.container .form .input {
+    height: 40px;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    font-family: 'DM Serif Display', serif;
+}
+
+.container .form .input label {
+    font-size: 15px;
+    margin-right: 20px;
+    width: 200px;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Trade Winds', cursive;
+
+}
+
+.container .form .input .inputt {
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 0px;
+}
+
+.container .form .input .btn {
+    margin-top: 30px;
+    width: 100%;
+    padding: 8px 5px;
+    font-size: 15px;
+    border: 0;
+    color: rgb(59, 57, 57);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 780px) {
+    .container {
+        margin-top: 30%;
+        width: 90%;
+        height: 350;
+    }
+
+    .container .judul {
+        font-size: 20px;
+    }
+
+    .container .form .input label {
+        font-size: 15px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+
+    .container .form .input .inputt {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .container .form .input .btn {
+        width: 100%;
+        font-size: 12px;
+
+    }
+}
